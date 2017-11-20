@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-// Å×½ºÆ® ÄÚµå¸¦ ½ÇÇàÇÒ ¶§ ½ºÇÁ¸µÀÌ ·ÎµùµÇµµ·Ï ÇÏ´Â ºÎºĞ
+// í…ŒìŠ¤íŠ¸ ì½”ë“œë¥¼ ì‹¤í–‰í•  ë•Œ ìŠ¤í”„ë§ì´ ë¡œë”©ë˜ë„ë¡ í•˜ëŠ” ë¶€ë¶„
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations= {"file:src/main/webapp/WEB-INF/spring/**/root-context.xml"})
 public class DataSourceTest {
