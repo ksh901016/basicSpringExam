@@ -12,7 +12,7 @@
     
     <insert id="insertMember">
       INSERT INTO TBL_MEMBER(
-             USER_ID
+             USERID
            , USERPW
            , USERNAME
            , EMAIL
