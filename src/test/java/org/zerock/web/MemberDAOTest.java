@@ -16,7 +16,6 @@ public class MemberDAOTest {
 	@Inject
 	private MemberDAO dao;
 	
-	@Test
 	public void testTime() {
 		System.out.println(dao.getTime());
 	}
@@ -29,6 +28,18 @@ public class MemberDAOTest {
 		vo.setEmail("user01@aaa.com");
 		
 		dao.inertMember(vo);
+	}
+	
+	@Test
+	public void testReadMember() throws Exception {
+		String id1 = "user00";
+		String id2 = "user01";
+		
+		MemberVO result01 = dao.readMember(id1);
+		MemberVO result02 = dao.readMember(id2);
+		
+		System.out.println(result01);
+		System.out.println(result02);
 	}
 
 }

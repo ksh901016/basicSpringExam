@@ -46,6 +46,7 @@ public class MemberVO {
 	public void setUpdatedate(Date updatedate) {
 		this.updatedate = updatedate;
 	}
-	
-	
+	public String toString() {
+		return userid + " - " + userpw + " - " + username + " - " + email + " - " + regdate;
+	}
 }
